@@ -212,6 +212,10 @@ class ViewController: UIViewController {
             self.imagePickerController.sourceType = .camera
             self.present(self.imagePickerController, animated: true)
         }))
+        alert.addAction(UIAlertAction(title: "Default Image", style: .default, handler: {action in
+            self.plant.plantImage = UIImage(named: "default")!
+            self.imageView.image = self.plant.plantImage
+        }))
         self.present(alert, animated: true)
     }
     
