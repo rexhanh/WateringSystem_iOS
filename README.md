@@ -1,6 +1,7 @@
 ## Download
+Arduino Code: [Here](https://github.com/rexhanh/WateringSystem)
 
-
+Testflight Link: [Here](https://testflight.apple.com/join/eZRCohtQ)
 ## How to use
 Open the app, accept bluetooth usage, and if the device was setup, you are good to go, start to monitor the light intensity and soil moisture!
 
